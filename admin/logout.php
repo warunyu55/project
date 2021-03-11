@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['id']);
+unset($_SESSION['mem_user']);
+unset($_SESSION['mem_pass']);
+unset($_SESSION['mem_name']);
+unset($_SESSION['mem_type']);
+header("location:index.php");
+?>
